@@ -87,7 +87,7 @@
 <h1>개인정보처리방침</h1>
 <p class="lead">
   모바일 게임 <strong>트럭러시 (Truck Rush)</strong><br>
-  시행일: 2026년 10월 6일
+  시행일: 2026년 10월 12일
 </p>
 
 <h2>1. 개요</h2>
@@ -107,7 +107,7 @@
 <p>
   본 앱은 회원가입이 없고 로그인도 없습니다. 개발자는 이용자의 이름, 이메일,
   전화번호, 위치, 연락처, 사진 등 <strong>이용자를 알아볼 수 있는 개인정보를 수집하지
-  않습니다.</strong> 개발자가 운영하는 서버가 없습니다.
+  않습니다.</strong>
 </p>
 <p>
   다만 게임을 더 낫게 만들기 위해 <strong>GameAnalytics</strong>(GameAnalytics ApS, 덴마크)로
@@ -125,7 +125,18 @@
     보낸 통계의 삭제를 원하면 아래 문의처로 알려 주세요.</li>
 </ul>
 <p>
-  게임 진행 상황(스테이지 기록, 최고 점수, 보유한 별과 트럭, 소리·언어 설정)은
+  <strong>랭킹(순위표).</strong> 이어 달린 합계 점수의 최고 기록을 순위표에 올리기 위해
+  다음 두 가지를 개발자의 랭킹 서버(Supabase, 데이터 저장 위치는 Supabase가 제공하는 클라우드)로 보냅니다.
+</p>
+<ul>
+  <li>보내는 것: 앱이 처음 실행될 때 기기 안에서 무작위로 만든 랭킹용 번호(이름·광고 ID·기기 고유번호가 아닙니다)와
+    최고 합계 점수. 닉네임이나 다른 정보는 보내지 않습니다.</li>
+  <li>순위표에 보이는 것: 등수와 점수뿐입니다. 다른 이용자의 번호는 순위표에 표시되지 않습니다.</li>
+  <li>보관: 랭킹 서비스를 운영하는 동안 보관합니다. 삭제를 원하면 앱의 설정이 아니라 아래 문의처로 알려 주세요
+    (앱 안에서는 번호를 확인할 방법이 없으므로, 문의 때 대략의 점수와 날짜를 알려 주시면 찾아 지웁니다).</li>
+</ul>
+<p>
+  그 밖의 게임 진행 상황(스테이지 기록, 보유한 별과 트럭, 소리·언어 설정)은
   <strong>이용자의 기기 안에만</strong> 저장됩니다. 앱을 삭제하면 함께 지워지며,
   개발자는 그 내용을 볼 수 없습니다.
 </p>
@@ -257,7 +268,7 @@
 <h1>Privacy Policy</h1>
 <p class="lead">
   Mobile game <strong>Truck Rush</strong> (트럭러시)<br>
-  Effective date: October 6, 2026
+  Effective date: October 12, 2026
 </p>
 
 <h2>1. Overview</h2>
@@ -277,7 +288,7 @@
 <p>
   The app has no sign-up and no login. The developer <strong>does not collect</strong> any personal
   information that identifies you, such as your name, email address, phone number, location,
-  contacts, or photos. The developer does not operate any server.
+  contacts, or photos.
 </p>
 <p>
   To improve the game, the app sends anonymous gameplay statistics to <strong>GameAnalytics</strong>
@@ -296,7 +307,18 @@
     To request deletion of statistics already sent, contact us below.</li>
 </ul>
 <p>
-  Your game progress (stage records, best scores, stars and trucks you own, sound and
+  <strong>Ranking (leaderboard).</strong> To place your best total score on the leaderboard, the app sends two
+  things to the developer's ranking server (Supabase, hosted on Supabase's cloud):
+</p>
+<ul>
+  <li>What is sent: a random ranking ID created on your device the first time the app runs (not your name,
+    the advertising ID or a hardware identifier) and your best total score. No nickname or other data.</li>
+  <li>What the leaderboard shows: rank and score only. Other players' IDs are not displayed.</li>
+  <li>Retention: kept while the ranking service is operated. To request deletion, contact us below
+    (the app does not show the ID, so tell us your approximate score and date and we will find and delete it).</li>
+</ul>
+<p>
+  The rest of your game progress (stage records, stars and trucks you own, sound and
   language settings) is stored <strong>only on your device</strong>. It is deleted when you
   uninstall the app, and the developer cannot see it.
 </p>
